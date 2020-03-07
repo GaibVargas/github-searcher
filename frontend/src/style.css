@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.App {
+  margin: 50px 0 20px;
+  background-color:#232323;
+  border-radius: 5px;
+  color: #e1e1e1;
+  padding: 25px;
+}
+
+header {
+  text-align: center;
+}
+
+.input {
+  margin: 30px 0 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.input input {
+  margin: 0 10px 0 5px;
+  background-color: #232323;
+  border: 1px solid #747474;
+  color: #8f8f8f;
+  font-size: 15px;
+  padding: 5px;
+  width: 60%;
+}
+
+.input button {
+  width: 30%;
+}
+
+.input input::placeholder {
+  color: #8f8f8f;
+  font-size: 15px;
+}
+
+button {
+  background-color: #e2e9e3;
+  color: #232323;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #b9b9b9;
+}
+
+.response[hide="true"] {
+  display: none;
+}
+
+.response[hide="false"] {
+  display: block;
+}
+
+.response {
+  margin-top: 20px;
+}
+
+.response-header {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.response-repos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.response-repos button {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.response-repos p {
+  margin: 4px 0;
+}
+
+a {
+  color: #e1e1e1;
+}
+
+a:hover {
+  color: #b8b8b8;
+}
